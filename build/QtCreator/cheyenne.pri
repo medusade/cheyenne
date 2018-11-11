@@ -16,7 +16,7 @@
 #   File: cheyenne.pri
 #
 # Author: $author$
-#   Date: 2/5/2018
+#   Date: 10/25/2018
 #
 # build QtCreator .pri file for cheyenne
 ########################################################################
@@ -26,37 +26,100 @@
 #
 # pkg-config --cflags --libs nadir
 #
+
+# build nadir INCLUDEPATH
+#
 build_nadir_INCLUDEPATH += \
 
+# build nadir DEFINES
+#
 build_nadir_DEFINES += \
 
+# build nadir LIBS
+#
 build_nadir_LIBS += \
+
+########################################################################
+# coral
+#
+# pkg-config --cflags --libs coral
+#
+
+# build coral INCLUDEPATH
+#
+build_coral_INCLUDEPATH += \
+
+# build coral DEFINES
+#
+build_coral_DEFINES += \
+
+# build coral LIBS
+#
+build_coral_LIBS += \
+
+########################################################################
+# medusa
+#
+# pkg-config --cflags --libs medusa
+#
+
+# build medusa INCLUDEPATH
+#
+build_medusa_INCLUDEPATH += \
+
+# build medusa DEFINES
+#
+build_medusa_DEFINES += \
+
+# build medusa LIBS
+#
+build_medusa_LIBS += \
 
 ########################################################################
 # coke
 #
 # pkg-config --cflags --libs coke
 #
+
+# build coke INCLUDEPATH
+#
 build_coke_INCLUDEPATH += \
 
+# build coke DEFINES
+#
 build_coke_DEFINES += \
 
+# build coke LIBS
+#
 build_coke_LIBS += \
 
 ########################################################################
 # cheyenne
+
+# build cheyenne INCLUDEPATH
+#
 build_cheyenne_INCLUDEPATH += \
 $${build_coke_INCLUDEPATH} \
+$${build_medusa_INCLUDEPATH} \
+$${build_coral_INCLUDEPATH} \
 $${build_nadir_INCLUDEPATH} \
 
 
+# build cheyenne DEFINES
+#
 build_cheyenne_DEFINES += \
 $${build_nadir_DEFINES} \
+$${build_coral_DEFINES} \
+$${build_medusa_DEFINES} \
 $${build_coke_DEFINES} \
 
 
+# build cheyenne LIBS
+#
 build_cheyenne_LIBS += \
 $${build_coke_LIBS} \
+$${build_medusa_LIBS} \
+$${build_coral_LIBS} \
 $${build_nadir_LIBS} \
 
 

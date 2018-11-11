@@ -16,7 +16,7 @@
 #   File: libcheyenne.pro
 #
 # Author: $author$
-#   Date: 2/5/2018
+#   Date: 10/25/2018
 #
 # QtCreator .pro file for cheyenne library libcheyenne
 ########################################################################
@@ -30,18 +30,38 @@ TEMPLATE = $${libcheyenne_TEMPLATE}
 CONFIG += $${libcheyenne_CONFIG}
 
 ########################################################################
+# INCLUDEPATH
+#
 INCLUDEPATH += \
 $${libcheyenne_INCLUDEPATH} \
 
+# DEFINES
+# 
 DEFINES += \
 $${libcheyenne_DEFINES} \
 
 ########################################################################
+# OBJECTIVE_HEADERS
+#
+OBJECTIVE_HEADERS += \
+$${libcheyenne_OBJECTIVE_HEADERS} \
+
+# OBJECTIVE_SOURCES
+#
+SOURCES += \
+$${libcheyenne_OBJECTIVE_SOURCES} \
+
+########################################################################
+# HEADERS
+#
 HEADERS += \
 $${libcheyenne_HEADERS} \
 
+# SOURCES
+#
 SOURCES += \
 $${libcheyenne_SOURCES} \
+$${OBJECTIVE_SOURCES} \
 
 ########################################################################
 

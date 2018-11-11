@@ -16,28 +16,59 @@
 #   File: cheyenne.pri
 #
 # Author: $author$
-#   Date: 2/5/2018
+#   Date: 10/25/2018
 #
 # QtCreator .pri file for cheyenne executable cheyenne
 ########################################################################
 
 ########################################################################
 # cheyenne
+
+# cheyenne_exe TARGET
+#
 cheyenne_exe_TARGET = cheyenne
 
+# cheyenne_exe INCLUDEPATH
+#
 cheyenne_exe_INCLUDEPATH += \
 $${cheyenne_INCLUDEPATH} \
 
+# cheyenne_exe DEFINES
+#
 cheyenne_exe_DEFINES += \
 $${cheyenne_DEFINES} \
 
 ########################################################################
-cheyenne_exe_HEADERS += \
-$${COKE_SRC}/coke/system/console/Main_main.hpp \
+# cheyenne_exe OBJECTIVE_HEADERS
+#
+#cheyenne_exe_OBJECTIVE_HEADERS += \
+#$${CHEYENNE_SRC}/cheyenne/base/Base.hh \
 
-cheyenne_exe_SOURCES += \
-$${COKE_SRC}/coke/system/console/Main_main.cpp \
+# cheyenne_exe OBJECTIVE_SOURCES
+#
+#cheyenne_exe_OBJECTIVE_SOURCES += \
+#$${CHEYENNE_SRC}/cheyenne/base/Base.mm \
 
 ########################################################################
+# cheyenne_exe HEADERS
+#
+#cheyenne_exe_HEADERS += \
+#$${CHEYENNE_SRC}/cheyenne/base/Base.hpp \
+
+# cheyenne_exe SOURCES
+#
+#cheyenne_exe_SOURCES += \
+#$${CHEYENNE_SRC}/cheyenne/base/Base.cpp \
+
+########################################################################
+# cheyenne_exe FRAMEWORKS
+#
+cheyenne_exe_FRAMEWORKS += \
+$${cheyenne_FRAMEWORKS} \
+
+# cheyenne_exe LIBS
+#
 cheyenne_exe_LIBS += \
 $${cheyenne_LIBS} \
+
+

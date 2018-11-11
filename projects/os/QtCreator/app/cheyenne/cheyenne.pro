@@ -16,7 +16,7 @@
 #   File: cheyenne.pro
 #
 # Author: $author$
-#   Date: 2/5/2018
+#   Date: 10/25/2018
 #
 # QtCreator .pro file for cheyenne executable cheyenne
 ########################################################################
@@ -28,21 +28,49 @@ include(../../../../QtCreator/app/cheyenne/cheyenne.pri)
 TARGET = $${cheyenne_exe_TARGET}
 
 ########################################################################
+# INCLUDEPATH
+#
 INCLUDEPATH += \
 $${cheyenne_exe_INCLUDEPATH} \
 
+# DEFINES
+# 
 DEFINES += \
 $${cheyenne_exe_DEFINES} \
 
 ########################################################################
+# OBJECTIVE_HEADERS
+#
+OBJECTIVE_HEADERS += \
+$${cheyenne_exe_OBJECTIVE_HEADERS} \
+
+# OBJECTIVE_SOURCES
+#
+SOURCES += \
+$${cheyenne_exe_OBJECTIVE_SOURCES} \
+
+########################################################################
+# HEADERS
+#
 HEADERS += \
 $${cheyenne_exe_HEADERS} \
 
+# SOURCES
+#
 SOURCES += \
 $${cheyenne_exe_SOURCES} \
+$${OBJECTIVE_SOURCES} \
 
 ########################################################################
+# FRAMEWORKS
+#
+FRAMEWORKS += \
+$${cheyenne_exe_FRAMEWORKS} \
+
+# LIBS
+#
 LIBS += \
 $${cheyenne_exe_LIBS} \
+$${FRAMEWORKS} \
 
 
