@@ -18,12 +18,12 @@
 /// Author: $author
 ///   Date: 2/2/2018
 ///////////////////////////////////////////////////////////////////////
-#ifndef _COKEX_CHEYENNE_SERPENT_SERPENTREQUESTEVENT_HPP
-#define _COKEX_CHEYENNE_SERPENT_SERPENTREQUESTEVENT_HPP
+#ifndef _CHEYENNE_SERPENT_SERPENTREQUESTEVENT_HPP
+#define _CHEYENNE_SERPENT_SERPENTREQUESTEVENT_HPP
 
 #include "coke/lang/Object.hpp"
 
-namespace cokex {
+
 namespace cheyenne {
 namespace serpent {
 
@@ -56,6 +56,6 @@ typedef SerpentRequestEvent::Extends SerpentRequestEventExtends;
 
 } // namespace serpent
 } // namespace cheyenne
-} // namespace cokex
 
-#endif // _COKEX_CHEYENNE_SERPENT_SERPENTREQUESTEVENT_HPP 
+
+#endif // _CHEYENNE_SERPENT_SERPENTREQUESTEVENT_HPP 

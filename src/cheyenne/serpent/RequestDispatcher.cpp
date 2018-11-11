@@ -18,9 +18,8 @@
 /// Author: $author
 ///   Date: 2/2/2018
 ///////////////////////////////////////////////////////////////////////
-#include "cokex/cheyenne/serpent/RequestDispatcher.hpp"
+#include "cheyenne/serpent/RequestDispatcher.hpp"
 
-namespace cokex {
 namespace cheyenne {
 namespace serpent {
 
@@ -30,5 +29,4 @@ namespace serpent {
 
 } // namespace serpent
 } // namespace cheyenne
-} // namespace cokex
 

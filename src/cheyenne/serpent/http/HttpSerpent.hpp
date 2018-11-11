@@ -18,17 +18,17 @@
 /// Author: $author
 ///   Date: 2/2/2018
 ///////////////////////////////////////////////////////////////////////
-#ifndef _COKEX_CHEYENNE_SERPENT_HTTP_HTTPSERPENT_HPP
-#define _COKEX_CHEYENNE_SERPENT_HTTP_HTTPSERPENT_HPP
+#ifndef _CHEYENNE_SERPENT_HTTP_HTTPSERPENT_HPP
+#define _CHEYENNE_SERPENT_HTTP_HTTPSERPENT_HPP
 
-#include "cokex/cheyenne/serpent/http/HttpSerpentResponse.hpp"
-#include "cokex/cheyenne/serpent/http/HttpSerpentRequest.hpp"
-#include "cokex/cheyenne/serpent/Serpent.hpp"
-#include "cokex/cheyenne/serpent/SerpentResponse.hpp"
-#include "cokex/cheyenne/serpent/SerpentRequest.hpp"
+#include "cheyenne/serpent/http/HttpSerpentResponse.hpp"
+#include "cheyenne/serpent/http/HttpSerpentRequest.hpp"
+#include "cheyenne/serpent/Serpent.hpp"
+#include "cheyenne/serpent/SerpentResponse.hpp"
+#include "cheyenne/serpent/SerpentRequest.hpp"
 #include "coke/lang/Object.hpp"
 
-namespace cokex {
+
 namespace cheyenne {
 namespace serpent {
 namespace http {
@@ -63,6 +63,6 @@ typedef HttpSerpent::Extends HttpSerpentExtends;
 } // namespace http
 } // namespace serpent
 } // namespace cheyenne
-} // namespace cokex
 
-#endif // _COKEX_CHEYENNE_SERPENT_HTTP_HTTPSERPENT_HPP 
+
+#endif // _CHEYENNE_SERPENT_HTTP_HTTPSERPENT_HPP 

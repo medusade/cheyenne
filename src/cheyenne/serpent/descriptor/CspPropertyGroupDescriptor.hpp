@@ -18,12 +18,12 @@
 /// Author: $author
 ///   Date: 2/3/2018
 ///////////////////////////////////////////////////////////////////////
-#ifndef _COKEX_CHEYENNE_SERPENT_CSPPROPERTYGROUPDESCRIPTOR_HPP
-#define _COKEX_CHEYENNE_SERPENT_CSPPROPERTYGROUPDESCRIPTOR_HPP
+#ifndef _CHEYENNE_SERPENT_CSPPROPERTYGROUPDESCRIPTOR_HPP
+#define _CHEYENNE_SERPENT_CSPPROPERTYGROUPDESCRIPTOR_HPP
 
 #include "coke/lang/Object.hpp"
 
-namespace cokex {
+
 namespace cheyenne {
 namespace serpent {
 
@@ -56,6 +56,6 @@ typedef CspPropertyGroupDescriptor::Extends CspPropertyGroupDescriptorExtends;
 
 } // namespace serpent
 } // namespace cheyenne
-} // namespace cokex
 
-#endif // _COKEX_CHEYENNE_SERPENT_CSPPROPERTYGROUPDESCRIPTOR_HPP 
+
+#endif // _CHEYENNE_SERPENT_CSPPROPERTYGROUPDESCRIPTOR_HPP 

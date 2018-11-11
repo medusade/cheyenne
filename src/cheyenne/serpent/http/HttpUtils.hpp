@@ -18,12 +18,12 @@
 /// Author: $author
 ///   Date: 2/2/2018
 ///////////////////////////////////////////////////////////////////////
-#ifndef _COKEX_CHEYENNE_SERPENT_HTTP_HTTPUTILS_HPP
-#define _COKEX_CHEYENNE_SERPENT_HTTP_HTTPUTILS_HPP
+#ifndef _CHEYENNE_SERPENT_HTTP_HTTPUTILS_HPP
+#define _CHEYENNE_SERPENT_HTTP_HTTPUTILS_HPP
 
 #include "coke/lang/Object.hpp"
 
-namespace cokex {
+
 namespace cheyenne {
 namespace serpent {
 namespace http {
@@ -58,6 +58,6 @@ typedef HttpUtils::Extends HttpUtilsExtends;
 } // namespace http
 } // namespace serpent
 } // namespace cheyenne
-} // namespace cokex
 
-#endif // _COKEX_CHEYENNE_SERPENT_HTTP_HTTPUTILS_HPP 
+
+#endif // _CHEYENNE_SERPENT_HTTP_HTTPUTILS_HPP 

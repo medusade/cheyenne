@@ -18,9 +18,8 @@
 /// Author: $author
 ///   Date: 2/3/2018
 ///////////////////////////////////////////////////////////////////////
-#include "cokex/cheyenne/serpent/MultipartConfigElement.hpp"
+#include "cheyenne/serpent/MultipartConfigElement.hpp"
 
-namespace cokex {
 namespace cheyenne {
 namespace serpent {
 
@@ -30,5 +29,4 @@ namespace serpent {
 
 } // namespace serpent
 } // namespace cheyenne
-} // namespace cokex
 

@@ -18,9 +18,8 @@
 /// Author: $author$
 ///   Date: 2/1/2018
 ///////////////////////////////////////////////////////////////////////
-#include "cokex/cheyenne/serpent/SerpentAttributeListener.hpp"
+#include "cheyenne/serpent/SerpentAttributeListener.hpp"
 
-namespace cokex {
 namespace cheyenne { 
 namespace serpent {
 
@@ -32,7 +31,6 @@ namespace serpent {
 
 } // namespace serpent 
 } // namespace cheyenne 
-} // namespace cokex 
 
 
 

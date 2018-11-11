@@ -18,9 +18,8 @@
 /// Author: $author
 ///   Date: 2/3/2018
 ///////////////////////////////////////////////////////////////////////
-#include "cokex/cheyenne/serpent/HttpConstraintElement.hpp"
+#include "cheyenne/serpent/HttpConstraintElement.hpp"
 
-namespace cokex {
 namespace cheyenne {
 namespace serpent {
 
@@ -30,5 +29,3 @@ namespace serpent {
 
 } // namespace serpent
 } // namespace cheyenne
-} // namespace cokex
-

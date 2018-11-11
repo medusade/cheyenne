@@ -18,15 +18,14 @@
 /// Author: $author
 ///   Date: 2/2/2018
 ///////////////////////////////////////////////////////////////////////
-#ifndef _COKEX_CHEYENNE_SERPENT_SERPENT_HPP
-#define _COKEX_CHEYENNE_SERPENT_SERPENT_HPP
+#ifndef _CHEYENNE_SERPENT_SERPENT_HPP
+#define _CHEYENNE_SERPENT_SERPENT_HPP
 
-#include "cokex/cheyenne/serpent/SerpentResponse.hpp"
-#include "cokex/cheyenne/serpent/SerpentRequest.hpp"
-#include "cokex/cheyenne/serpent/SerpentConfig.hpp"
-#include "cokex/cheyenne/Base.hpp"
+#include "cheyenne/serpent/SerpentResponse.hpp"
+#include "cheyenne/serpent/SerpentRequest.hpp"
+#include "cheyenne/serpent/SerpentConfig.hpp"
+#include "cheyenne/base/Base.hpp"
 
-namespace cokex {
 namespace cheyenne {
 namespace serpent {
 
@@ -99,6 +98,6 @@ typedef NullSerpent::Extends NullSerpentExtends;
 
 } // namespace serpent
 } // namespace cheyenne
-} // namespace cokex
 
-#endif // _COKEX_CHEYENNE_SERPENT_SERPENT_HPP 
+
+#endif // _CHEYENNE_SERPENT_SERPENT_HPP 

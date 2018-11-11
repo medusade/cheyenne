@@ -18,9 +18,9 @@
 /// Author: $author$
 ///   Date: 2/1/2018
 ///////////////////////////////////////////////////////////////////////
-#include "cokex/cheyenne/serpent/http/HttpUpgradeHandler.hpp"
+#include "cheyenne/serpent/http/HttpUpgradeHandler.hpp"
 
-namespace cokex {
+
 namespace cheyenne { 
 namespace serpent {
 namespace http {
@@ -34,7 +34,7 @@ namespace http {
 } // namespace http 
 } // namespace serpent 
 } // namespace cheyenne 
-} // namespace cokex 
+ 
 
 
 

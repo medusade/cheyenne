@@ -18,10 +18,8 @@
 /// Author: $author$
 ///   Date: 2/2/2018
 ///////////////////////////////////////////////////////////////////////
-#include "cokex/cheyenne/Base.hpp"
+#include "cheyenne/base/Base.hpp"
 
-namespace cokex {
 namespace cheyenne {
 
 } // namespace cheyenne 
-} // namespace cokex 

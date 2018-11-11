@@ -18,9 +18,9 @@
 /// Author: $author
 ///   Date: 2/2/2018
 ///////////////////////////////////////////////////////////////////////
-#include "cokex/cheyenne/serpent/http/HttpSessionEvent.hpp"
+#include "cheyenne/serpent/http/HttpSessionEvent.hpp"
 
-namespace cokex {
+
 namespace cheyenne {
 namespace serpent {
 namespace http {
@@ -32,5 +32,5 @@ namespace http {
 } // namespace http
 } // namespace serpent
 } // namespace cheyenne
-} // namespace cokex
+
 

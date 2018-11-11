@@ -18,12 +18,11 @@
 /// Author: $author$
 ///   Date: 2/2/2018
 ///////////////////////////////////////////////////////////////////////
-#ifndef _COKEX_CHEYENNE_BASE_HPP
-#define _COKEX_CHEYENNE_BASE_HPP
+#ifndef _CHEYENNE_BASE_HPP
+#define _CHEYENNE_BASE_HPP
 
 #include "coke/lang/String.hpp"
 
-namespace cokex {
 namespace cheyenne {
 
 typedef ::coke::byte_t byte_t;
@@ -39,6 +38,5 @@ typedef ::coke::lang::String String;
 typedef ::coke::lang::NullString NullString;
 
 } // namespace cheyenne 
-} // namespace cokex 
 
-#endif // _COKEX_CHEYENNE_BASE_HPP 
+#endif // _CHEYENNE_BASE_HPP 

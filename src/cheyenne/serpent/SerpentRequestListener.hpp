@@ -18,12 +18,12 @@
 /// Author: $author
 ///   Date: 2/2/2018
 ///////////////////////////////////////////////////////////////////////
-#ifndef _COKEX_CHEYENNE_SERPENT_SERPENTREQUESTLISTENER_HPP
-#define _COKEX_CHEYENNE_SERPENT_SERPENTREQUESTLISTENER_HPP
+#ifndef _CHEYENNE_SERPENT_SERPENTREQUESTLISTENER_HPP
+#define _CHEYENNE_SERPENT_SERPENTREQUESTLISTENER_HPP
 
-#include "cokex/cheyenne/Base.hpp"
+#include "cheyenne/base/Base.hpp"
 
-namespace cokex {
+
 namespace cheyenne {
 namespace serpent {
 
@@ -77,6 +77,6 @@ typedef NullSerpentRequestListener::Extends NullSerpentRequestListenerExtends;
 
 } // namespace serpent
 } // namespace cheyenne
-} // namespace cokex
 
-#endif // _COKEX_CHEYENNE_SERPENT_SERPENTREQUESTLISTENER_HPP 
+
+#endif // _CHEYENNE_SERPENT_SERPENTREQUESTLISTENER_HPP 

@@ -18,12 +18,12 @@
 /// Author: $author
 ///   Date: 2/2/2018
 ///////////////////////////////////////////////////////////////////////
-#ifndef _COKEX_CHEYENNE_SERPENT_SERPENTCONTEXT_HPP
-#define _COKEX_CHEYENNE_SERPENT_SERPENTCONTEXT_HPP
+#ifndef _CHEYENNE_SERPENT_SERPENTCONTEXT_HPP
+#define _CHEYENNE_SERPENT_SERPENTCONTEXT_HPP
 
-#include "cokex/cheyenne/Base.hpp"
+#include "cheyenne/base/Base.hpp"
 
-namespace cokex {
+
 namespace cheyenne {
 namespace serpent {
 
@@ -77,6 +77,6 @@ typedef NullSerpentContext::Extends NullSerpentContextExtends;
 
 } // namespace serpent
 } // namespace cheyenne
-} // namespace cokex
 
-#endif // _COKEX_CHEYENNE_SERPENT_SERPENTCONTEXT_HPP 
+
+#endif // _CHEYENNE_SERPENT_SERPENTCONTEXT_HPP 

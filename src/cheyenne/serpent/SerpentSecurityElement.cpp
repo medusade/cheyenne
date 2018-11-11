@@ -18,9 +18,9 @@
 /// Author: $author
 ///   Date: 2/3/2018
 ///////////////////////////////////////////////////////////////////////
-#include "cokex/cheyenne/serpent/SerpentSecurityElement.hpp"
+#include "cheyenne/serpent/SerpentSecurityElement.hpp"
 
-namespace cokex {
+
 namespace cheyenne {
 namespace serpent {
 
@@ -30,5 +30,5 @@ namespace serpent {
 
 } // namespace serpent
 } // namespace cheyenne
-} // namespace cokex
+
 

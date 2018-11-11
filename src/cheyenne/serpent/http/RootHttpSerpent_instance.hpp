@@ -18,11 +18,11 @@
 /// Author: $author$
 ///   Date: 2/1/2018
 ///////////////////////////////////////////////////////////////////////
-#ifndef _COKEX_CHEYENNE_SERPENT_HTTP_ROOTHTTPSERPENT_INSTANCE_HPP
-#define _COKEX_CHEYENNE_SERPENT_HTTP_ROOTHTTPSERPENT_INSTANCE_HPP
+#ifndef _CHEYENNE_SERPENT_HTTP_ROOTHTTPSERPENT_INSTANCE_HPP
+#define _CHEYENNE_SERPENT_HTTP_ROOTHTTPSERPENT_INSTANCE_HPP
 #include "coke/lang/Object.hpp"
 
-namespace cokex {
+
 namespace cheyenne { 
 namespace serpent {
 namespace http {
@@ -49,10 +49,10 @@ public:
 } // namespace http 
 } // namespace serpent 
 } // namespace cheyenne 
-} // namespace cokex 
+ 
 
 
-#endif // _COKEX_CHEYENNE_SERPENT_HTTP_ROOTHTTPSERPENT_INSTANCE_HPP 
+#endif // _CHEYENNE_SERPENT_HTTP_ROOTHTTPSERPENT_INSTANCE_HPP 
 
         
 
